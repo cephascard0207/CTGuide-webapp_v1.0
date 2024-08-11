@@ -7,10 +7,11 @@ An All in One Open-Source Non-Profit Learning Roadmap for Computer Technique Stu
 - master - The master branch consists of the web app project code files in accordance to the tech stack
 
 ## Technology
-- **HTML**
-- **CSS**
-- **Bootstrap**
-
+- **HTML > Markup Language**
+- **CSS > Styling Language**
+- **Bootstrap > Front End Library**
+- **Git > Version Control System**
+- **GitHub > Repository Management & Hosting**
 ## Versions
 - **Version 1**: Initial release.
 - **Version 1.1**: Upcoming with more updates! (New Repository will be initialized)
