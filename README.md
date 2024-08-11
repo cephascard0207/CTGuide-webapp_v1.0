@@ -15,7 +15,7 @@ An All in One Open-Source Non-Profit Learning Roadmap for Computer Technique Stu
 - **Version 1**: Initial release.
 - **Version 1.1**: Upcoming with more updates! (New Repository will be initialized)
 
-## Website Mockups
+## Website Snapshots
 <h3>Desktop Supported</h3>
 <img src="https://github.com/cephascard0207/CTGuide-webapp_v1.0/blob/main/CTGuide_WebsitePic1.png?raw=true"/>
 <h3>Moile Responsive</h3>
