@@ -14,7 +14,6 @@ An All in One Open-Source Non-Profit Learning Roadmap for Computer Technique Stu
 - **GitHub > Repository Management & Hosting**
 ## Versions
 - **Version 1**: Initial release.
-- **Version 1.1**: Upcoming with more updates! (New Repository will be initialized)
 
 ## Website Snapshots
 <h3>Desktop Supported</h3>
