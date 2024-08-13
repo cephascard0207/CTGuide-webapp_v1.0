@@ -219,7 +219,7 @@
 }
     
 
-/* Roadmap Section Styling
+/* Roadmap Section Styling*/
 .roadmap-section {
     display: flex;
     flex-direction: column;
@@ -228,8 +228,9 @@
     text-align: center;
     padding: 120px 20px;
     position: relative;
-    font-family: 'Outfit', sans-serif; /* Applied Outfit font to hero section 
-
+    font-family: 'Outfit', sans-serif; 
+}
+/* Applied Outfit font to hero section */
 
 .roadmap-section h1 span {
             background: linear-gradient(90deg, #1D87FF, #7A52FF, #4AB3FF);
@@ -251,12 +252,12 @@
     border-radius: 15px;
     padding: 20px;
     margin: 20px 0;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(190px);
     width: 100%;
     max-width: 600px;
     border: 1px solid rgba(255, 255, 255, 0.3);
     position: relative;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(113, 113, 113, 0.1);
 }
 
 .roadmap-content {
@@ -273,18 +274,19 @@
 
 .roadmap-content p {
     font-family: 'Poppins', sans-serif;
-    font-size: 18px;
-    color: #828282;
+    font-size: 15px;
+    color: #000335;
 }
-*/
-/* Connecting lines between roadmap items 
+
+
+/*Connecting lines between roadmap items */
 .roadmap-item::before {
     content: '';
     position: absolute;
     top: 0;
     left: 50%;
     transform: translateX(-50%);
-    width: 4.5px;
+    width: 0px;
     height: 100%;
     background: linear-gradient(180deg, #1D87FF, #7A52FF);
     z-index: -1;
@@ -307,7 +309,23 @@
         font-size: 16px;
     }
 }
-  */  
+
+
+
+.roadmap-section h1{
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #000220;
+    margin-top: 9px;
+}
+
+.roadmap-section h1 sup{
+    background: linear-gradient(90deg, #1D87FF, #7A52FF, #4AB3FF);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+}
+
 
 
 .features-section {
@@ -391,6 +409,7 @@
     font-weight: 600;
     font-style: normal;
     color: #000220;
+    margin-top: 9px;
 }
 
 .features-section h1 span {
@@ -465,7 +484,7 @@
     <h1>Exploring Computing & Learning Resources <br><span>have never been easier.</span></h1>
     <br><br>
     <div class="containerf">
-        <h6 id="conh6f">CTGuide enable Effortless Access to Variety of Computing and Learning Resources at your<br> Fingertips providing knowledge Growth & Skill Improvement</h2>
+        <p id="conh6f">CTGuide enables Effortless Access to Variety of Computing and Learning Resources at your<br> Fingertips providing knowledge Growth & Skill Improvement</p>
             <div class="features-grid">
             <div class="feature-item">
                 <div class="icon">
@@ -500,32 +519,32 @@
     </div>
 </section>
 
-<!-- Roadmap Section
+<!-- Roadmap Section-->
 <div class="roadmap-section">
-    <h6>Discover the Stream <span>Subjects</span></h6>
-    <h1>Exploring Computing & Learning Resources <span>have never been easier.</span></h1>
+    <h6>Pure Categorisation of <span>Resources</span></h6>
+    <h1>Resources for Classes <span>11<sup>th</sup> and 12<sup>th</sup></span></h1>
+    
     <br><br>
+    <p id="conh6f">Multiple Learning Mediums & Resouces categorized for different classes</p>
     <div class="roadmap-item">
         <div class="roadmap-content">
-            <h3>Web Technology</h3>
-            <p>Learn the web development tech stack</p>
+            <h3><div class="icon style=">
+                <img src="https://img.icons8.com/ios-filled/50/00000/students.png" alt="Database Icon">
+                </div><br>
+            Class 11</h3>
+            <p>Discover a curated collection of learning resources, detailed notes, and code files tailored for Class 11 students. Access links to multiple educational websites and free courses that come with certifications, all aligned with the State Board curriculum. This all-in-one platform is designed to enhance your learning experience, providing you with the tools and materials you need to excel in your studies.</p>
         </div>
     </div>
 
     <div class="roadmap-item">
         <div class="roadmap-content">
-            <h3>Software Technology</h3>
-            <p>Covers Full Python-based Console programming & logical concepts</p>
+            <h3><div class="icon style=">
+                <img src="https://img.icons8.com/ios-filled/50/00000/class.png" alt="Database Icon">
+                </div><br>Class 12</h3>
+            <p>Explore a rich repository of learning materials, including in-depth notes, code files, and more, specifically designed for Class 12 students. Gain access to links for various educational websites and free certification courses, along with extra resources and references tailored to the State Board examination syllabus. This comprehensive platform is your go-to source for excelling in your studies and preparing for your exams with confidence.</p>
         </div>
     </div>
-
-    <div class="roadmap-item">
-        <div class="roadmap-content">
-            <h3>Software Applications</h3>
-            <p>Resources based on computing applications</p>
-        </div>
-    </div>
-</div>-->
+</div>
 
 
 
