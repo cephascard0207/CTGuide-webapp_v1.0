@@ -1,6 +1,6 @@
 ## CtGuide Web App | v1.0 🧑🏻‍💻⭐
 
-An All in One Open-Source Non-Profit Learning Roadmap for Computer Technique Students. Free Resources & Custom Learning for all computer technique students of the vocational stream. This Web App was made due to the lack of knowledge and external reference guides for comp tech students in the offline market. The CTGuide Web app has all the resources you need covered for both the 11th & 12th High School Standards. This Project has been based on the State Board Curriculum.
+An All in One Open-Source Non-Profit Learning Roadmap & Studio for Computer Technique Students. Free Resources & Custom Learning for all computer technique students of the vocational stream. This Web App was made due to the lack of knowledge and external reference guides for comp tech students in the offline market. The CTGuide Web app has all the resources you need covered for both the 11th & 12th High School Standards. This Project has been based on the State Board Curriculum.
 
 ## Git Branches
 - main - The main branch consists of the web app licensing, project readme & snapshot files
