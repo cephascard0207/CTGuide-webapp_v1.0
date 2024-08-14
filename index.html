@@ -477,6 +477,235 @@
     margin-bottom: 50px;
     padding: 13px;
 }
+
+/* Container */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+   
+}
+
+/* Text Content */
+.text-content {
+    flex: 1;
+    min-width: 300px;
+    margin-right: 20px;
+}
+
+.text-content h3 {
+    color: #6646ef;
+    font-size: 1.2rem;
+}
+
+.text-content h1 {
+    font-size: 2rem;
+    margin: 10px 0;
+}
+
+.text-content h1 .highlight {
+    font-weight: bold;
+    color: #000;
+}
+
+.text-content p {
+    margin: 10px 0 20px;
+    font-size: 1rem;
+}
+
+/* Features List */
+.features {
+    list-style: none;
+}
+
+.features li {
+    margin-bottom: 15px;
+    font-size: 1rem;
+}
+
+.features .icon {
+    margin-right: 10px;
+    font-size: 1.2rem;
+}
+
+/* Image Content */
+.image-content {
+    flex: 1;
+    min-width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-content img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .text-content {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+}
+    /* Footer Styling */
+footer {
+    background-color: #2a2a73;
+    color: #fff;
+    padding: 60px 30px;
+    text-align: center;
+}
+
+.cta-section {
+    background: linear-gradient(135deg, #3a3aa1, #5a5ae0);
+    padding: 50px 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    margin-bottom: 50px;
+}
+
+.cta-section h2 {
+    font-size: 2.4rem;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+}
+
+.cta-section p {
+    font-size: 1.3rem;
+    margin-bottom: 30px;
+}
+
+.cta-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.cta-button {
+    background-color: #ffffff;
+    color: #35357b;
+    padding: 15px 35px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+}
+
+.cta-button:hover {
+    background-color: #eaeaea;
+    transform: translateY(-3px);
+}
+
+.cta-button.primary {
+    background-color: #5a5ae0;
+    color: #ffffff;
+}
+
+.cta-button.primary:hover {
+    background-color: #4545a8;
+}
+
+/* Footer Content */
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 50px;
+    text-align: left;
+}
+
+.footer-column {
+    flex: 1;
+    min-width: 240px;
+    margin-bottom: 40px;
+}
+
+.footer-column h3 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    letter-spacing: 0.5px;
+    border-bottom: 2px solid #5a5ae0;
+    padding-bottom: 10px;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 12px;
+}
+
+.footer-column ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+
+.footer-column ul li a:hover {
+    color: #eaeaea;
+    text-decoration: underline;
+}
+
+/* Footer Bottom */
+.footer-bottom {
+    margin-top: 30px;
+    border-top: 1px solid #4545a8;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-bottom p {
+    font-size: 1rem;
+}
+
+.footer-bottom .heart {
+    color: #ff4b5c;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .cta-buttons {
+        flex-direction: column;
+    }
+
+    .cta-buttons a {
+        margin-bottom: 15px;
+        width: 100%;
+    }
+    
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .footer-column {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    .footer-column ul {
+        padding: 0;
+    }
+}
+    
     </style>
 </head>
 <body>
@@ -498,7 +727,7 @@
                         <a class="nav-link" href="#">Docs</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link btn-learn-now" href="#">Learn Now</a>
+                        <a class="nav-link btn-learn-now" href="roadmap.html">View Roadmap</a>
                     </li>
                 </ul>
             </div>
@@ -507,7 +736,7 @@
 
 <!-- Hero Section -->
 <div class="hero-section">
-    <h1>An All in One <span>Learning Roadmap</span> for Computer Technique Students</h1>
+    <h1>All in One <span>Learning Roadmap & Studio</span> <br>for Computer Technique Students</h1>
     <p>Open-Source & Non-Profit Project</p>
     
     <!-- Icons Section -->
@@ -520,7 +749,7 @@
         </a>
     </div>
     
-    <a href="#" class="btn btn-primary me-3">Explore Roadmap</a>
+    <a href="learnstudio.html" class="btn btn-primary me-3">Learn Studio</a>
 </div>
 
 <section class="features-section">
@@ -563,6 +792,22 @@
     </div>
 </section>
 
+<div class="container">
+    <div class="text-content">
+        <h3>Pure data at your fingertips.</h3>
+        <h1>No Paywall, No Sign-Up <span class="highlight">required.</span></h1>
+        <p>It seems like these days, everything is hidden behind a paywall. Talem is <strong>100% free and always will be.</strong> We believe that every high schooler should have <strong>equal</strong> access to opportunities.</p>
+        <ul class="features">
+            <li><span class="icon">🏠</span> <strong>No Signup or Login.</strong> CTGuide doesn't require you to sign-up or log-in at all. Just head on over to our database, and explore for yourself.</li>
+            <li><span class="icon">🔒</span> <strong>Free Forever.</strong> CTGuide will always be free and stay free. We are committed to making sure every highschooler has the equal chance of getting the information they deserve.</li>
+            <li><span class="icon">💻</span> <strong>Built with your help.</strong> CTGuide was built with YOUR suggestions and feedback. You can help us out by submitting an activity or joining our discord server!</li>
+        </ul>
+    </div>
+    <div class="image-content">
+        <img src="tst.png" alt="Screenshot of Talem website">
+    </div>
+</div>
+
 <!-- Roadmap Section-->
 <div class="roadmap-section">
     <h6>Pure Categorisation of <span>Resources</span></h6>
@@ -579,7 +824,7 @@
             <p>Discover a curated collection of learning resources, detailed notes, and code files tailored for Class 11 students. Access links to multiple educational websites and free courses that come with certifications, all aligned with the State Board curriculum. This all-in-one platform is designed to enhance your learning experience, providing you with the tools and materials you need to excel in your studies.</p>
         </div>
     </div>
-
+    
     <div class="roadmap-item">
         <div class="roadmap-content">
             <h3><div class="icon style=">
@@ -591,6 +836,51 @@
 </div>
 
 
+<footer>
+    <div class="cta-section">
+        <h2>Ready to get started?</h2>
+        <p>Upskill yourself with CTGuide.</p>
+        <div class="cta-buttons">
+            <a href="learnstudio.html" class="cta-button">Explore Learn Studio</a>
+            <a href="roadmap.html" class="cta-button primary">View Roadmap</a>
+        </div>
+    </div>
+    <div class="footer-content">
+        <div class="footer-column">
+            <h3>CTGuide.</h3>
+            <p>Learning Roadmap & Studio</p>
+        </div>
+        <div class="footer-column">
+            <h3>LINKS</h3>
+            <ul>
+                <li><a href="index.html">Homepage</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Join the Team</a></li>
+                <li><a href="#">Blog</a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h3>RESOURCES</h3>
+            <ul>
+                <li><a href="#">Extracurriculars</a></li>
+                <li><a href="#">College Applications</a></li>
+                <li><a href="#">College Programs</a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h3>CONTACT US</h3>
+            <ul>
+                <li><a href="mailto:support@talem.org">support@talem.org</a></li>
+                <li><a href="#">Contact the Founder</a></li>
+                <li><a href="#">Submit an Activity</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>© 2024 All rights reserved.</p>
+        <p>Devloped with <span class="heart">❤️</span> by <a href="#">Cephas Cardozo</a></p>
+    </div>
+</footer>
 
 </body>
 </html>
