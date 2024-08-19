@@ -4,11 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CTGuide | Class 11 Studio</title>
+    <title>CTGuide | Choose your Class</title>
     <link rel="icon" type="image/x-icon" href="ctguide_logo.png">
     <!-- Bootstrap CSS -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
-    
+
     <!-- Bootstrap Implementation -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
@@ -109,7 +109,8 @@
             border-radius: 12px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
-
+        
+        
         .card-body {
             padding: 20px;
         }
@@ -134,7 +135,7 @@
             text-decoration: none;
             color: #007bff;
         }
-        
+
         .btn-primary {
             font-size: 1rem;
             background-color: #007bff;
@@ -147,10 +148,11 @@
         }
 
         .img-fluid {
-            max-width: 170px;
+            max-width: 270px;
             height: auto;
+            border-radius: 12px;
         }
-
+        
         .sidebar {
             background-color: transparent;
             padding: 20px;
@@ -188,6 +190,20 @@
 
         .bbye a{
             color: white;
+        }
+        .card-body h5,p{
+            text-align: left;
+        }
+
+        .col-lg-9 h2{
+             font-weight: 600;
+             color: #000000;
+             font-size: 40px;
+        }
+        .col-lg-9 h2 span{
+            background: linear-gradient(90deg, #1D87FF, #7A52FF, #4AB3FF);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
         }
             /* Footer Styling */
 footer {
@@ -315,7 +331,7 @@ footer {
     .cta-buttons {
         flex-direction: column;
     }
-    
+
     .cta-buttons a {
         margin-bottom: 15px;
         width: 100%;
@@ -335,6 +351,7 @@ footer {
         padding: 0;
     }
 }
+    
     </style>
 </head>
 
@@ -354,10 +371,10 @@ footer {
                         <a class="nav-link btn-learn-now" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">E-Books</a>
+                        <a class="nav-link btn-learn-now" href="courses.html">Free Courses</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link btn-learn-now" href="#">Docs</a>
+                        <a class="nav-link" href="#">Docs</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link btn-learn-now" href="#">Roadmap</a>
@@ -370,148 +387,73 @@ footer {
     <!-- Main Content -->
     <div class="container-fluid bg-gradient py-5">
         <div class="row">
-            <!-- Sidebar -->
-            <div class="col-lg-3 mb-4">
-                <div class="sidebar">
-                    <div class="list-group">
-                        <button class="list-group-item list-group-item-action">Class 11 Learn Studio</button>
-                    </div>
-                </div>
-            </div>
-
+            <center>
             <!-- Search Results -->
             <div class="col-lg-9">
                 <!--div class="mb-4">
                     <input type="text" class="form-control form-control-lg" placeholder="Search for a specific extracurricular (Ex: Robotics)">
                 </div-->
-
-                <!--p>SView Learning Resources Below</p-->
-
-                <div class="card mb-4 shadow-sm">
-                    <div class="row g-0">
-                        <div class="col-md-8">
-                            <div class="card-body">
-                                <h5 class="card-title">HTML - Hyper Text Markup Language</h5>
-                                <p class="card-text">HTML (Hypertext Markup Language) is the standard language used to create and design web pages. It provides the basic structure of a webpage by using a series of elements or tags, which define the content, such as headings, paragraphs, images, links, and more.</p>
-                                <div class="d-flex flex-wrap gap-2">
-                                    <span class="badge bg-info text-dark">HTML Basics</span>
-                                    <span class="badge bg-info text-dark">Coding</span>
-                                    <span class="badge bg-info text-dark">Notes</span>
-                                    <span class="badge bg-info text-dark">Refernces</span>
-                                    <span class="badge bg-info text-dark">Resource Links</span>
-                                    <span class="badge bg-info text-dark">Class 11</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 d-flex flex-column align-items-center justify-content-center p-3">
-                            <img src="images/html.png" alt="Key Club" class="img-fluid mb-3">
-                            <a href="https://drive.google.com/drive/folders/1BG4H7r23cn2Z1alsRObyYu9oFLLGLbDP?usp=sharing" class="btn btn-primary" >View Resource Drive</a>
-                        </div>
-                    </div>
-                </div>
                 
+                <!--p>View Learning Resources Below</p-->
+                <h2>EBook <span>Library</span></h2><br>
                 <div class="card mb-4 shadow-sm">
                     <div class="row g-0">
                         <div class="col-md-8">
                             <div class="card-body">
-                                <h5 class="card-title">CSS - Cascading Style Sheets</h5>
-                                <p class="card-text">CSS (Cascading Style Sheets) is a style sheet language used to control the visual presentation of web pages. It allows developers to apply styles, such as colors, fonts, spacing, and layout, to HTML elements, creating visually appealing and responsive designs. CSS separates content from design, enabling consistent and reusable styles across multiple pages. </p>
+                                <h5 class="card-title">Class 11 Computer Technique</h5>
+                                <p class="card-text">Discover a curated collection of learning resources, detailed notes, and code files tailored for Class 11 students. Access links to multiple educational websites and free courses that come with certifications, all aligned with the State Board curriculum.</p>
                                 <div class="d-flex flex-wrap gap-2">
-                                    <span class="badge bg-info text-dark">CSS Basics</span>
-                                    <span class="badge bg-info text-dark">Coding</span>
-                                    <span class="badge bg-info text-dark">Notes</span>
-                                    <span class="badge bg-info text-dark">Refernces</span>
-                                    <span class="badge bg-info text-dark">Resource Links</span>
-                                    <span class="badge bg-info text-dark">Class 11</span>
+                                    <span class="badge bg-info text-dark">HTML</span>
+                                    <span class="badge bg-info text-dark">CSS</span>
+                                    <span class="badge bg-info text-dark">JavaScript</span>
+                                    <span class="badge bg-info text-dark">Python</span>
+                                    <span class="badge bg-info text-dark">Algorithms</span>
+                                    <span class="badge bg-info text-dark">Flowcharts</span>
+                                    <span class="badge bg-info text-dark">MS Word</span>
+                                    <span class="badge bg-info text-dark">MS Access</span>
+                                    <span class="badge bg-info text-dark">Program Devlopment</span>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-4 d-flex flex-column align-items-center justify-content-center p-3">
-                            <img src="images/css.png" alt="MUN" class="img-fluid mb-3">
-                            <a href="#" class="btn btn-primary">View Resource Drive</a>
+                            <img src="images/1.jpg" alt="Key Club" class="img-fluid mb-3">
+                            <a href="class11studio.html" class="btn btn-primary" >View 11<sup>th</sup> Resources</a>
                         </div>
                     </div>
                 </div>
+
 
                 <div class="card mb-4 shadow-sm">
                     <div class="row g-0">
                         <div class="col-md-8">
                             <div class="card-body">
-                                <h5 class="card-title">JavaScript - Programming Language</h5>
-                                <p class="card-text">JavaScript (JS) is a versatile scripting language primarily used to create interactive and dynamic content on websites. It enables developers to enhance user interfaces, validate forms, create animations, handle events, and manipulate the Document Object Model (DOM). JavaScript is integral to modern web development, working alongside HTML and CSS to deliver rich, engaging experiences.</p>
+                                <h5 class="card-title">Class 12 Computer Technique</h5>
+                                <p class="card-text">
+                                    Dive into a wealth of learning resources tailored for Class 12 students, featuring detailed notes, code files, and much more. Access curated links to educational websites and free certification courses, along with additional resources and references aligned with the State Board examination syllabus.</p>
                                 <div class="d-flex flex-wrap gap-2">
-                                    <span class="badge bg-info text-dark">Js Basics</span>
-                                    <span class="badge bg-info text-dark">Programming</span>
-                                    <span class="badge bg-info text-dark">Notes</span>
-                                    <span class="badge bg-info text-dark">Refernces</span>
-                                    <span class="badge bg-info text-dark">Resource Links</span>
-                                    <span class="badge bg-info text-dark">Class 11</span>
+                                    <span class="badge bg-info text-dark">DBMS</span>
+                                    <span class="badge bg-info text-dark">SQL</span>
+                                    <span class="badge bg-info text-dark">PHP</span>
+                                    <span class="badge bg-info text-dark">Intermediate Python</span>
+                                    <span class="badge bg-info text-dark">Obkect Oriented Programming</span>
+                                    <span class="badge bg-info text-dark">Networking Concepts</span>
+                                    <span class="badge bg-info text-dark">Addional HTML Concepts</span>
+                                    <span class="badge bg-info text-dark">MS Access</span>
+                                    <span class="badge bg-info text-dark">Program Devlopment</span>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-4 d-flex flex-column align-items-center justify-content-center p-3">
-                            <img src="images/js.png" alt="NHS" class="img-fluid mb-3">
-                            <a href="#" class="btn btn-primary">View Resource Drive</a>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="card mb-4 shadow-sm">
-                    <div class="row g-0">
-                        <div class="col-md-8">
-                            <div class="card-body">
-                                <h5 class="card-title">Python - Programming Language</h5>
-                                <p class="card-text">Python is a powerful, high-level programming language known for its simplicity and readability. It supports multiple programming paradigms, including procedural, object-oriented, and functional programming. Python's extensive standard library and rich ecosystem of third-party packages make it ideal for a wide range of applications, from web development and data analysis to machine learning and automation. </p>
-                                <div class="d-flex flex-wrap gap-2">
-                                    <span class="badge bg-info text-dark">Long-Term</span>
-                                    <span class="badge bg-info text-dark">In Person</span>
-                                    <span class="badge bg-info text-dark">All Grades</span>
-                                    <span class="badge bg-info text-dark">Global/Worldwide</span>
-                                    <span class="badge bg-info text-dark">Competition</span>
-                                    <span class="badge bg-info text-dark">Global Government</span>
-                                    <span class="badge bg-info text-dark">Politics</span>
-                                    <span class="badge bg-info text-dark">Leadership</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 d-flex flex-column align-items-center justify-content-center p-3">
-                            <img src="images/python.png" alt="MUN" class="img-fluid mb-3">
-                            <a href="#" class="btn btn-primary">View Resource Drive</a>
-                        </div>
-                    </div>
-                
-                    
-                    
-                </div>
-
-                <div class="card mb-4 shadow-sm">
-                    <div class="row g-0">
-                        <div class="col-md-8">
-                            <div class="card-body">
-                                <h5 class="card-title">Algorithms & Flowchart</h5>
-                                <p class="card-text">An algorithm is a step-by-step process or set of instructions designed to solve a problem or complete a task efficiently. Flowcharts visually represent these algorithms, using symbols like arrows and rectangles to map out each step and decision in a process. Together, algorithms and flowcharts simplify complex tasks, making them easier to understand, plan, and execute in software development and beyond.</p>
-                                <div class="d-flex flex-wrap gap-2">
-                                    <span class="badge bg-info text-dark">Js Basics</span>
-                                    <span class="badge bg-info text-dark">Programming</span>
-                                    <span class="badge bg-info text-dark">Notes</span>
-                                    <span class="badge bg-info text-dark">Refernces</span>
-                                    <span class="badge bg-info text-dark">Resource Links</span>
-                                    <span class="badge bg-info text-dark">Class 11</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 d-flex flex-column align-items-center justify-content-center p-3">
-                            <img src="images/alflow.png" alt="NHS" class="img-fluid mb-3">
-                            <a href="#" class="btn btn-primary">View Resource Drive</a>
+                            <img src="images/2.jpg" alt="NHS" class="img-fluid mb-3">
+                            <a href="class12studio.html" class="btn btn-primary">View 12<sup>th</sup> Resources</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Bootstrap JS -->
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
-
+</center>
+    
 <footer>
     <!--div class="cta-section">
         <h2>Ready to get started?</h2>
@@ -545,11 +487,11 @@ footer {
         </div>
         <div class="footer-column">
             <h3>CONTACT US</h3>
-            <ul>
-                <li><a href="mailto:cephascardozo0207@gmail.com">cephascardozo0207@gmail.com</a></li>
-                <li><a href="https://www.linkedin.com/in/cephas-cardozo/?originalSubdomain=in">LinkedIn</a></li>
-                <li><a href="https://github.com/cephascard0207">GitHub</a></li>
-            </ul>
+                <ul>
+                    <li><a href="mailto:cephascardozo0207@gmail.com">cephascardozo0207@gmail.com</a></li>
+                    <li><a href="https://www.linkedin.com/in/cephas-cardozo/?originalSubdomain=in">LinkedIn</a></li>
+                    <li><a href="https://github.com/cephascard0207">GitHub</a></li>
+                </ul>
         </div>
     </div>
     <div class="footer-bottom">
@@ -562,4 +504,3 @@ footer {
 </body>
 
 </html>
-

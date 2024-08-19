@@ -20,3 +20,10 @@ An All in One Open-Source Non-Profit Learning Roadmap & Studio for Computer Tech
 <img src="https://github.com/cephascard0207/CTGuide-webapp_v1.0/blob/main/CTGuide_WebsitePic1.png?raw=true"/>
 <img src="https://github.com/cephascard0207/CTGuide-webapp_v1.0/blob/main/CTGuide_WebsitePic3.png?raw=true"/>
 
+## Project Contributors
+- **Cephas Cardozo > Founder & Lead**
+- **Andy Fernandes > Content & Resource Lead**
+
+## Course Contributors
+- **Ashwin Patil > Video Editing Basics**
+- **Vernon Dias > Hardware Basics**
